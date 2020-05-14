@@ -1,3 +1,6 @@
+
+Linha adicionada quando estava no ramo master.
+
 Git => é o software que você instala no seu computador para versionar projetos (arquivos);
 github | bitbuket | outros => repositório na nuvem onde você armazena o projeto commitado.
 
