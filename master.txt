@@ -1,2 +1,3 @@
 
 1. Arquivo master.txt criado no ramo master
+2. Adicionada uma linha em master.txt no ramo master

@@ -1,6 +1,5 @@
 
 Primeira linha adicionada quando estava no ramo master.
-Segunda linha adicionada quando estava no ramo master.
 
 Material baseado em B7Web - módulo7 #1 ao #7 - Git Versionamento de código
 
@@ -21,6 +20,7 @@ $ git reset --soft -> dá um rollback no que foi commitado. Volta para o commit 
 $ git reset --mixed -> dá um rollback no que foi commitado. Identico ao soft, porém, tem que dar um git add -A novamente ou git commit -am "Mengem de commit"
 $ git reset --hard -> dá um rollback no que foi commitado. Simplesmente ignora commits posteriores ao que você determinar. O conteúdo do arquivo some.
 $ git diff -> para exibir os arquivos e as alterações realizadas no ramo atual
+$ git diff --name-only -> exibe só os nomes dos arquivos que sofreram alteração
 
 Como iniciar, commitar e ver como ficou o projeto/pasta na árvore do git?
 1. Na pasta do projeto digite git init, exemplo: 
