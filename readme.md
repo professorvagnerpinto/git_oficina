@@ -7,6 +7,7 @@ Git => é o software que você instala no seu computador para versionar projetos
 github | bitbuket | outros => repositório na nuvem onde você armazena o projeto commitado.
 
 Lista com os principais comandos:
+$ git init -> para inicializar o monitoramento do git em uma pasta (escolha a pasta raiz do projeto, assim monitora todo projeto)
 $ git status -> exibe o estado da pasta/projeto monitorado
 $ git add readme.md -> adiciona um arquivo a árvore do git
 $ git add -A -> adiciona todos os arquivos na pasta do prompt a árvore do git
@@ -21,6 +22,7 @@ $ git reset --mixed -> dá um rollback no que foi commitado. Identico ao soft, p
 $ git reset --hard -> dá um rollback no que foi commitado. Simplesmente ignora commits posteriores ao que você determinar. O conteúdo do arquivo some.
 $ git diff -> para exibir os arquivos e as alterações realizadas no ramo atual
 $ git diff --name-only -> exibe só os nomes dos arquivos que sofreram alteração
+$ git diff nome_do_arquivo -> para identificar as alterações realizadas em um arquivo em específico
 
 Como iniciar, commitar e ver como ficou o projeto/pasta na árvore do git?
 1. Na pasta do projeto digite git init, exemplo: 
