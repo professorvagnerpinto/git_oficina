@@ -6,7 +6,7 @@ Material baseado em B7Web - módulo7 #1 ao #7 - Git Versionamento de código
 Git => é o software que você instala no seu computador para versionar projetos (arquivos);
 github | bitbuket | outros => repositório na nuvem onde você armazena o projeto commitado.
 
-Lista com os principais comandos:
+Lista com os principais comandos (git local):
 $ git init -> para inicializar o monitoramento do git em uma pasta (escolha a pasta raiz do projeto, assim monitora todo projeto)
 $ git status -> exibe o estado da pasta/projeto monitorado
 $ git add readme.md -> adiciona um arquivo a árvore do git
@@ -34,9 +34,18 @@ Como iniciar, commitar e ver como ficou o projeto/pasta na árvore do git?
 5. git log
 
 Como fazer upload do seu repositório?
-1. Execute $ git remote add origin https://github.com/professorvagnerpinto/git_oficina.git
+1. Execute $ git remote add origin https://github.com/seu_usuario/seu_repositório.git
 2. Execute $ git push -u origin master
 3. Digite os dados solicitados, usuário e senha
+
+Lista com os principais comandos (git remoto):
+$ git remote add origin https://github.com/seu_usuario/seu_repositório.git -> adicionar o repositório remoto ao git local
+$ git push -u origin master -> fazer o upload do repositório local
+$ git remote -> para saber se o repositório local foi adicionado ao remoto (o upload aconteceu)
+$ git remote -v -> para exibir mais detalhes do que foi adicionado ao repositório remoto
+$ git remote fetch -> para baixar as atualizações do repositório remoto para o local
+$ git remote push -> para enviar as atualizações do repositório local para o remoto
+ 
 
 Teorias:
 Branch, README e Commit:
