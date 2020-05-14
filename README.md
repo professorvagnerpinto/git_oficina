@@ -33,6 +33,11 @@ Como iniciar, commitar e ver como ficou o projeto/pasta na árvore do git?
 4. git commit -m "Mensagem do commit. Cuida para ser claro no foi realizado"
 5. git log
 
+Como fazer upload do seu repositório?
+1. Execute $ git remote add origin https://github.com/professorvagnerpinto/git_oficina.git
+2. Execute $ git push -u origin master
+3. Digite os dados solicitados, usuário e senha
+
 Teorias:
 Branch, README e Commit:
 	Branch -> ramos do projeto ou versão do projeto, o inicial é o master.
