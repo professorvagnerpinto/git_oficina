@@ -33,6 +33,12 @@ Como iniciar, commitar e ver como ficou o projeto/pasta na árvore do git?
 4. git commit -m "Mensagem do commit. Cuida para ser claro no foi realizado"
 5. git log
 
+Como adicionar o repositório no github?
+1. Execute git remote add origin https://github.com/seu_usuario/seu_repositorio.git, no meu exemplo foi:
+	git remote add origin https://github.com/professorvagnerpinto/git_oficina.git
+2. Execute o upload através do comando git push -u origin master , ao ser questionado quanto ao usuário e senha digite as suas credenciias.
+	Pronto! No terminal deve ter aparecido uma mensagem que ao final tem: Branch 'master' set up to track remote branch 'master' from 'origin'.
+
 Teorias:
 Branch, README e Commit:
 	Branch -> ramos do projeto ou versão do projeto, o inicial é o master.
