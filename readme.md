@@ -1,6 +1,8 @@
 
 Linha adicionada quando estava no ramo master.
 
+Material baseado em B7Web - módulo7 #1 ao #7 - Git Versionamento de código
+
 Git => é o software que você instala no seu computador para versionar projetos (arquivos);
 github | bitbuket | outros => repositório na nuvem onde você armazena o projeto commitado.
 
