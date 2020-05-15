@@ -3,3 +3,5 @@
 2. Adicionada uma linha em master.txt no ramo master
 
 3. Linha adicionada para testar o git revert (o "salva sexta-feira"). Linha corrigida com o git revert e reset.
+
+4. Linha adicionada depois de clonar o repositório git_oficina
