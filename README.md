@@ -33,14 +33,13 @@ $ git log -> exibe o log do (s) commit (s)
 $ git branch -> lista todos os ramos do projeto (todos os branchs)
 $ git branch nomeDoBranch -> cria um novo ramo (branch)
 $ git checkout nomeDoBranch -> muda de branch
-$ git diff -> para exibir os arquivos e as alterações realizadas no ramo atual
-$ git diff --name-only -> exibe só os nomes dos arquivos que sofreram alteração
-$ git diff nome_do_arquivo -> para identificar as alterações realizadas em um arquivo em específico
-$ git checkout HEAD -- nomeDoArquivo -> para retirar o arquivo da lista de observáveis do Git (use diff para ver quais são antes)
 $ git reset --soft -> dá um rollback no que foi commitado. Volta para o commit que você determinar e deixa os commits posteriores preparados (prontos para realizar um novo commit.
 $ git reset --mixed -> dá um rollback no que foi commitado. Identico ao soft, porém, tem que dar um git add -A novamente ou git commit -am "Mengem de commit"
 $ git reset --hard -> dá um rollback no que foi commitado. Simplesmente ignora commits posteriores ao que você determinar. O conteúdo do arquivo some.
-$ git revert --no-edit token_do_commit -> dá um rollback no que foi commitado, mas deixa o conteúdo no estado que se encontrava. Esse é o "salvador da sexta-feira", pois, conta o dito popular, que se crachar a aplicação no final de semana, e o problema foi do último commit, é só você dar um git revert para voltar ao que estava funcionando anteriormente, aí na segunda você descobre o problema de seu commit da sexta-feira. Ah! o --no-edit é para evitar que o Git abra o editor que você cadastrou para o projeto. E o token_do_commit é o id do commit que você deve pegar no git log.
+$ git diff -> para exibir os arquivos e as alterações realizadas no ramo atual
+$ git diff --name-only -> exibe só os nomes dos arquivos que sofreram alteração
+$ git diff nome_do_arquivo -> para identificar as alterações realizadas em um arquivo em específico
+$ git checkout HEAD -- nomeDoArquivo -> para descartar as todas as altererações (use diff para ver quais são antes)
 ****************************************
 
 ***************** (Git remoto) ***********************
@@ -56,9 +55,4 @@ $ git remote -> para saber se o repositório local foi adicionado ao remoto (o u
 $ git remote -v -> para exibir mais detalhes do que foi adicionado ao repositório remoto
 $ git remote fetch -> para baixar as atualizações do repositório remoto para o local
 $ git remote push -> para enviar as atualizações do repositório local para o remoto
-****************************************
-
-***************** (.gitIgnore) ***********************
-Importante configuração do projeto. Isso reduz a visibilidade de arquivos sensíveis no repositório remoto. Coisas como chaves de acesso, tokens, entre outros devem ser protegidos pelo desenvolvedor e não podem ter visibilidade no repositório remoto.
-Acesse: https://github.com/github/gitignore para ter uma visão geral dos arquivos ignorados nos principais projetos do github.
 ****************************************
