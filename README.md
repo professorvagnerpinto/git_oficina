@@ -35,12 +35,12 @@ Como iniciar, commitar e ver como ficou o projeto/pasta na árvore do git?
 
 Como fazer upload do seu repositório?
 1. Execute $ git remote add origin https://github.com/seu_usuario/seu_repositório.git
-2. Execute $ git push -u origin master
+2. Execute $ git push -u origin master (push = enviar, -u = flag, origin = qual é o destino no remoto, master = qual é o branch no remoto)  
 3. Digite os dados solicitados, usuário e senha
 
 Lista com os principais comandos (git remoto):
 $ git remote add origin https://github.com/seu_usuario/seu_repositório.git -> adicionar o repositório remoto ao git local
-$ git push -u origin master -> fazer o upload do repositório local
+$ git push -u origin master -> fazer o upload do repositório local -> sintaxe: comando enviar flag destino_no_remote branch_a_enviar
 $ git remote -> para saber se o repositório local foi adicionado ao remoto (o upload aconteceu)
 $ git remote -v -> para exibir mais detalhes do que foi adicionado ao repositório remoto
 $ git remote fetch -> para baixar as atualizações do repositório remoto para o local
