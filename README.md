@@ -32,6 +32,7 @@ $ git commit -am "Menssagem do commit" -> também realiza um commit na pasta do 
 $ git log -> exibe o log do (s) commit (s)
 $ git branch -> lista todos os ramos do projeto (todos os branchs)
 $ git branch nomeDoBranch -> cria um novo ramo (branch)
+$ git branch -D nomeDoBranch -> deleta um branch (para isso você deve estar em um branch diferente do branch a excluir)
 $ git checkout nomeDoBranch -> muda de branch
 $ git diff -> para exibir os arquivos e as alterações realizadas no ramo atual
 $ git diff --name-only -> exibe só os nomes dos arquivos que sofreram alteração
@@ -56,6 +57,24 @@ $ git remote -> para saber se o repositório local foi adicionado ao remoto (o u
 $ git remote -v -> para exibir mais detalhes do que foi adicionado ao repositório remoto
 $ git remote fetch -> para baixar as atualizações do repositório remoto para o local
 $ git remote push -> para enviar as atualizações do repositório local para o remoto
+$ git push origin :nome_do_branch -> remove um branch remoto (atente para os dois pontos antes do nome do branch)
+$ git pull origin nome_do_branch -> puxa as alterações de outras devs do repositório remoto
+$ git clone url_do_projeto_a_clonar -> cria uma cópia do repositório remoto na pasta onde está o prompt
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+	Dica!!!
+
+	Antes de dar um push dê um pull. Isso evita conflitos, pois você terá no seu branch local todas as últimas alterações que outros
+	devs fizeram no branch remoto.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*** fork (contribuindo com projetos de outros devs no github) ***
+1. Botão fork no dash do github, vai criar um repositório identico ao repositório do projeto original na sua conta do github, assim você passa a contribuir com o projeto original a partir desse clone.
+2. Faça do clone do projeto criado pelo fork no seu repositório, isto é, o fork criou um clone para você na sua conta do github e agora você vai baixar esse clone para o seu computador, para o seu repositório local. É o clone do clone.
+3. Faça as alterações que você deseja fazer para contribuir com o projeto original, faça o commit e o push, e no github abra um pull request.
+
 ****************************************
 
 ***************** (.gitIgnore) ***********************
