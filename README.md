@@ -68,7 +68,7 @@
         <p>++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</p>
          <p>
              Dica!!!
-             <br></br><br></br>
+             <br></br>
               Antes de dar um push dê um pull. Isso evita conflitos, pois você terá no seu branch local todas as últimas alterações que outros
               devs fizeram no branch remoto.
               <br></br>
