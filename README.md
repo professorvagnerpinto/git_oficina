@@ -1,7 +1,11 @@
 <h1>Ofinina de Git e github</h1>
 
 <h4>Referências</h4>
-    <p>Material baseado em B7Web - módulo7 #1 ao #7 - Git Versionamento de código</p>
+    <ol>
+        <li>Material baseado em B7Web - módulo7 #1 ao #7 - Git Versionamento de código</li>
+        <li>Como estilizar arquivos .md (markdown): https://medium.com/@raullesteves/github-como-fazer-um-readme-md-bonit%C3%A3o-c85c8f154f8</li>
+        <li>Template de arquivo .md (inglês, português e espanhol): https://github.com/dbader/readme-template</li>
+    </ol>
 
 <h2>Teorias</h2>
     <p>Git => é o software que você instala no seu computador para versionar projetos (arquivos).</p>
